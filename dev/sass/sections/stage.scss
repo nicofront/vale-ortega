@@ -1,0 +1,24 @@
+.stage{
+	background-color: black;
+	h2{
+		margin-bottom: 30px;
+		font-size: 40px;
+		line-height: 46px;
+		color: #fff;
+	}
+	p{
+		margin-bottom: 20px;
+		font-size: 20px;
+		line-height: 24px;
+		color: #fff;
+	}
+	a.boton{
+		display: inline-block;
+		border-radius: 20px;
+		text-align: center;
+		background-color: #e6007e;
+		color: #FFFFFF;
+		margin: 0 auto;
+		padding: 10px 15px;
+	}
+}

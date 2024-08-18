@@ -1,0 +1,42 @@
+.services{
+	background: #525656;
+	padding: 50px 0;
+	.services-content{
+		display: flex;
+		align-items: center;
+		.services-item{
+			flex: 1 1 0px;
+			h2{
+				text-transform: uppercase;
+				font-size: 32px;
+				line-height: 40px;
+				font-weight: 500;
+				color: #fff;
+				span{
+					font-weight: 700;
+					color: #E6007E;
+				}
+			}
+			h3{
+				margin-bottom: 20px;
+				color: #fff;
+				text-transform: uppercase;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 25px;
+			}
+			ul{
+				margin-bottom: 0;
+				li{
+					font-size: 16px;
+					line-height: 20px;
+					color: #fff;
+					margin-bottom: 15px;
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}

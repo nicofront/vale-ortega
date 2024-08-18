@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Get in UX"/>
-    <meta name="description" content="Encuentra el programa que impulsará tu carrera al siguiente nivel"/>
-    <meta property="og:title" content="Get in UX"/>
-    <meta property="og:description" content="Encuentra el programa que impulsará tu carrera al siguiente nivel"/>
+    <meta name="title" content="Vale Ortega - Healthy"/>
+    <meta name="description" content="Lorem ipsum dolor"/>
+    <meta property="og:title" content="Vale Ortega - Healthy"/>
+    <meta property="og:description" content="Lorem ipsum dolor"/>
 
     <meta property="og:type" content="company"/>
-    <meta property="og:url" content="https://www.getinuxcl.com"/>
-    <meta property="og:site_name" content="Get in UX"/>
-    <title>Get in UX</title>
+    <meta property="og:url" content="https://www.lorem.com"/>
+    <meta property="og:site_name" content="Vale Ortega - Healthy"/>
+    <title>Vale Ortega - Healthy</title>
     <link rel="shortcut icon" href="dist/img/favicon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="dist/css/style.css?cb=1615307255841">
@@ -49,270 +49,74 @@
         </div>
     </div>
 
-    <div id="scroll" class="top transition"></div>
-
-    <div class="bgblock">
+    <div class="stage">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h3 class="u-center text text-5xl text--bold text-darkblue u-mb10">
-                        Get in <span>UX</span>
-                    </h3>
-                    <h4 class="u-center text text-base text-darkblue text--medium u-mb0">
-                        Encuentra el programa que impulsará tu carrera al siguiente nivel
-                    </h4>
+                <div class="col-lg-4 col-md-6">
+                    <h2>
+                        Transforma tu vida, 
+                        entrena con pasión
+                    </h2>
+                    <p>
+                        Únete a la comunidad de quienes eligen vivir de manera saludable y activa. Con entrenamientos personalizados y un enfoque integral en nutrición y bienestar.
+                    </p>
+                    <a href="#" class="boton">¡Quiero saber más!</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="u-pb0">
+    <div class="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 u-mb40">
-                    <div class="search">
-                        <div class="search__scroll u-mb40">
-                            <div class="search__filters">
-                                <select name="programs" id="">
-                                    <option value="">Tipo de programa</option>
-                                    <option value="bootcamp">Bootcamp</option>
-                                    <option value="curso">Curso</option>
-                                    <option value="diplomado">Diplomado</option>
-                                    <option value="magister">Magister</option>
-                                    <option value="pregrado">Pregrado</option>
-                                    <option value="taller">Taller</option>
-                                </select>
-                                <select name="status" id="">
-                                    <option value="">Estatus</option>
-                                    <option value="lorem">Lorem</option>
-                                </select>
-                                <select name="price" id="">
-                                    <option value="">Financiamiento</option>
-                                    <option value="lorem">Lorem</option>
-                                </select>
+                <div class="col-md-12">
+                    <h3>
+                        Sobre Vale Ortega
+                    </h3>
+                    <div class="about-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2>
+                                    TE AYUDO A CONSEGUIR <br>
+                                    <span>TU PROPIA VERSIÓN</span> <br>
+                                    SALUDABLE
+                                </h2>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    Con una certificación profesional en entrenamiento físico, he dedicado más de una década a ayudar a las personas a alcanzar sus metas personales y a mejorar su salud en el proceso con un enfoque holístico que integra ejercicio, nutrición y bienestar mental para asegurar resultados duraderos y un cambio positivo a largo plazo.
+                                </p>
                             </div>
                         </div>
-                        <div class="search__data u-mb10">
-                            <h5 class="text text-sm text--black u-mb0">
-                                10 resultados
-                            </h5>
-                            <select name="sort" id="">
-                                <option value="">Ordenar por:</option>
-                                <option value="">Último añadido</option>
-                                <option value="">Precio menor a mayor</option>
-                                <option value="">Precio mayor a menor</option>
-                            </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="about-features">
+                        <div class="about-item">
+                            <img src="https://i.pinimg.com/474x/5a/9b/9d/5a9b9d580cef8ecfe154ae5a0e789949.jpg" alt="Pokeball">
+                            <h4>
+                                SEGUIMIENTO <span>CONSTANTE</span> DE TU PROGRESO
+                            </h4>
                         </div>
-                        <div class="search__box">
-                            <div class="search__card">
-                                <a href="https://twitter.com/" target="_blank" class="search__card__newtab"></a>
-                                <div class="search__card__tags u-mb30">
-                                    <ul>
-                                        <li class="text text-xs search__card__tags__type">
-                                            Diplomado
-                                        </li>
-                                        <li class="text text-xs">
-                                            Postulaciones abiertas
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="search__card__head u-mb40">
-                                    <h4 class="search__card__title text text-lg text--bold u-mb0">
-                                        Diplomado en Diseño y medición de experiencia de usuario en entornos digitales
-                                    </h4>
-                                    <h5 class="search__card__who text text-xs u-mb0 u-mt10">
-                                        <div class="search__card__circle">
-                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/240px-Pok%C3%A9_Ball_icon.svg.png" alt="Avatar">
-                                        </div>
-                                        Pontificia Universidad Católica de Chile
-                                    </h5>
-                                </div>
-                                <div class="search__card__body">
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Fechas:</span> 10/10/22 al 14/12/22
-                                    </p>
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Modalidad:</span> Online, clases en vivo
-                                    </p>
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Valor:</span> $1.700.000
-                                    </p>
-                                </div>
-                                <div class="accordion">
-                                    <div class="accordion__trigger text text-sm text--medium">
-                                        Contenidos
-                                    </div>
-                                    <div class="accordion__content">
-                                        <ul>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="search__card">
-                                <div class="search__card__tags u-mb30">
-                                    <ul>
-                                        <li class="text text-xs search__card__tags__type">
-                                            Diplomado
-                                        </li>
-                                        <li class="text text-xs">
-                                            Postulaciones abiertas
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="search__card__head u-mb40">
-                                    <h4 class="search__card__title text text-lg text--bold u-mb0">
-                                        Diplomado en Diseño y medición de experiencia de usuario en entornos digitales
-                                    </h4>
-                                    <h5 class="search__card__who text text-xs u-mb0 u-mt10">
-                                        <div class="search__card__circle">
-                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/240px-Pok%C3%A9_Ball_icon.svg.png" alt="Avatar">
-                                        </div>
-                                        Pontificia Universidad Católica de Chile
-                                    </h5>
-                                </div>
-                                <div class="search__card__body">
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Fechas:</span> 10/10/22 al 14/12/22
-                                    </p>
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Modalidad:</span> Online, clases en vivo
-                                    </p>
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Valor:</span> $1.700.000
-                                    </p>
-                                </div>
-                                <div class="accordion">
-                                    <div class="accordion__trigger text text-sm text--medium">
-                                        Contenidos
-                                    </div>
-                                    <div class="accordion__content">
-                                        <ul>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="search__card">
-                                <div class="search__card__tags u-mb30">
-                                    <ul>
-                                        <li class="text text-xs search__card__tags__type">
-                                            Diplomado
-                                        </li>
-                                        <li class="text text-xs">
-                                            Postulaciones abiertas
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="search__card__head u-mb40">
-                                    <h4 class="search__card__title text text-lg text--bold u-mb0">
-                                        Diplomado en Diseño y medición de experiencia de usuario en entornos digitales
-                                    </h4>
-                                    <h5 class="search__card__who text text-xs u-mb0 u-mt10">
-                                        <div class="search__card__circle">
-                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/240px-Pok%C3%A9_Ball_icon.svg.png" alt="Avatar">
-                                        </div>
-                                        Pontificia Universidad Católica de Chile
-                                    </h5>
-                                </div>
-                                <div class="search__card__body">
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Fechas:</span> 10/10/22 al 14/12/22
-                                    </p>
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Modalidad:</span> Online, clases en vivo
-                                    </p>
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Valor:</span> $1.700.000
-                                    </p>
-                                </div>
-                                <div class="accordion">
-                                    <div class="accordion__trigger text text-sm text--medium">
-                                        Contenidos
-                                    </div>
-                                    <div class="accordion__content">
-                                        <ul>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="search__card">
-                                <div class="search__card__tags u-mb30">
-                                    <ul>
-                                        <li class="text text-xs search__card__tags__type">
-                                            Diplomado
-                                        </li>
-                                        <li class="text text-xs">
-                                            Postulaciones abiertas
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="search__card__head u-mb40">
-                                    <h4 class="search__card__title text text-lg text--bold u-mb0">
-                                        Diplomado en Diseño y medición de experiencia de usuario en entornos digitales
-                                    </h4>
-                                    <h5 class="search__card__who text text-xs u-mb0 u-mt10">
-                                        <div class="search__card__circle">
-                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/240px-Pok%C3%A9_Ball_icon.svg.png" alt="Avatar">
-                                        </div>
-                                        Pontificia Universidad Católica de Chile
-                                    </h5>
-                                </div>
-                                <div class="search__card__body">
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Fechas:</span> 10/10/22 al 14/12/22
-                                    </p>
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Modalidad:</span> Online, clases en vivo
-                                    </p>
-                                    <p class="text text-sm">
-                                        <span class="text--medium">Valor:</span> $1.700.000
-                                    </p>
-                                </div>
-                                <div class="accordion">
-                                    <div class="accordion__trigger text text-sm text--medium">
-                                        Contenidos
-                                    </div>
-                                    <div class="accordion__content">
-                                        <ul>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                            <li class="text text-sm">
-                                                Lorem ipsum dolor sit amet, consectetur.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="about-item">
+                            <img src="https://i.pinimg.com/474x/5a/9b/9d/5a9b9d580cef8ecfe154ae5a0e789949.jpg" alt="Pokeball">
+                            <h4>
+                                ASESORÍA <span>NUTRICIONAL</span> DEPORTIVA
+                            </h4>
+                        </div>
+                        <div class="about-item">
+                            <img src="https://i.pinimg.com/474x/5a/9b/9d/5a9b9d580cef8ecfe154ae5a0e789949.jpg" alt="Pokeball">
+                            <h4>
+                                CLASES EN LINEA <span>ON DEMAND</span>
+                            </h4>
+                        </div>
+                        <div class="about-item">
+                            <img src="https://i.pinimg.com/474x/5a/9b/9d/5a9b9d580cef8ecfe154ae5a0e789949.jpg" alt="Pokeball">
+                            <h4>
+                                PROGRAMAS DE ENTRENAMIENTO <span>EN VIVO</span>
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -320,33 +124,96 @@
         </div>
     </div>
 
-    <div class="u-pb60">
-        <div class="paginator transition">
-            <ul>
-                <li class="">
-                    <a href="" class="arrow arrow-prev">
+    <div class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="services-content">
+                        <div class="services-item">
+                            <h2>
+                                Un servicio <br>
+                                <span>personalizado</span> <br>
+                                para ti
+                            </h2>
+                        </div>
+                        <div class="services-item">
+                            <h3>
+                                INCLUYE
+                            </h3>
+                            <ul>
+                                <li>Programas personalizados que se adaptan a tus objetivos y necesidades.</li>
+                                <li>Planes alimenticios diseñados para maximizar tus resultados.</li>
+                                <li>Motívate y diviértete entrenando con otros en sesiones grupales.</li>
+                                <li>Clases Online: Entrena desde cualquier lugar con acceso a clases virtuales en demanda.</li>
+                                <li>Seguimiento continuo del progreso, ajustes en tiempo real según el rendimiento.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimony">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>
+                        Nuestros clientes 
+                        <span>hablan por nosotros</span>
+                    </h2>
+                </div>
+                <div class="col-lg-10 offset-lg-1 d-flex">
+                    <div class="testimony-card">
+                        <img src="https://i.pinimg.com/474x/5a/9b/9d/5a9b9d580cef8ecfe154ae5a0e789949.jpg" alt="Pokeball">
+                        <h3>
+                            Persona 1
+                        </h3>
+                        <p>
+                            Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
+                        </p>
+                    </div>
+                    <div class="testimony-card">
+                        <img src="https://i.pinimg.com/474x/5a/9b/9d/5a9b9d580cef8ecfe154ae5a0e789949.jpg" alt="Pokeball">
+                        <h3>
+                            Persona 1
+                        </h3>
+                        <p>
+                            Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
+                        </p>
+                    </div>
+                    <div class="testimony-card">
+                        <img src="https://i.pinimg.com/474x/5a/9b/9d/5a9b9d580cef8ecfe154ae5a0e789949.jpg" alt="Pokeball">
+                        <h3>
+                            Persona 1
+                        </h3>
+                        <p>
+                            Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-6">
+                    <h3>
+                        texto falso aqui
+                    </h3>
+                    <h2>
+                        Lorem ipsum, dolor sit, amet consectetur adipisicing elit.
+                    </h2>
+                    <p>
+                        Con una certificación profesional en entrenamiento físico, he dedicado más de una década a ayudar a las personas a alcanzar sus metas personales y a mejorar su salud en el proceso con un enfoque holístico que integra ejercicio, nutrición y bienestar mental para asegurar resultados duraderos y un cambio positivo a largo plazo.
+                    </p>
+                    <a href="" class="boton">
+                        Cotiza por Whatsapp
                     </a>
-                </li>
-                <li class="">
-                    <a href="">1</a>
-                </li>
-                <li class="active">
-                    <a href="">2</a>
-                </li>
-                <li>
-                    <p>...</p>
-                </li>
-                <li class="">
-                    <a href="">6</a>
-                </li>
-                <li class="">
-                    <a href="">7</a>
-                </li>
-                <li class="">
-                    <a href="" class="arrow arrow-next">
-                    </a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -355,8 +222,7 @@
             <div class="row">
                 <div class="col-6">
                     <a href="#" class="footer__title text-xl text u-mb0 text--medium">
-                        Get in <br>
-                        UX
+                        Get in UX
                     </a>
                 </div>
                 <div class="col-6">
@@ -374,9 +240,8 @@
                     </ul>
                 </div>
                 <div class="col-md-12">
-                    <p class="text text-xxs u-center u-mb0">
-                        Creado por humanos. Get in UX Chile 2023. <br>
-                        ©Todos los derechos reservados.
+                    <p class="u-center u-mb0">
+                        valeortegahealthy.cl derechos reservados
                     </p>
                 </div>
             </div>

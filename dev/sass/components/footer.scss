@@ -1,0 +1,39 @@
+@import "../settings/colors";
+
+.footer{
+	padding: 35px 0 120px;
+	background-color: $black-base;
+	border-top: 2px solid $pink;
+	.footer__title{
+		margin-bottom: 20px;
+		text-decoration: none;
+		color: $white;
+	}
+	h3{
+		color: $white;
+		margin-bottom: 15px;
+	}
+	ul{
+		padding-left: 0;
+		margin-bottom: 30px;
+		li{
+			list-style: none;
+			margin-bottom: 14px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+			a{
+				display: inline-block;
+				color: $white;
+				&.text.text-sm{
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	p{
+		color: $purple;
+		padding-top: 30px;
+		border-top: 0.75px solid $lightgrey;
+	}
+}

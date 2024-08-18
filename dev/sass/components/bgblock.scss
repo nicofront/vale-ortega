@@ -1,0 +1,8 @@
+@import "../settings/colors";
+
+.bgblock{
+	padding: 60px 20px 45px;
+	position: relative;
+	@media( max-width: 767px) {
+	}
+}

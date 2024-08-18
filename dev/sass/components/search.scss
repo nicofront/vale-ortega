@@ -1,0 +1,139 @@
+@import "../settings/colors";
+
+.search{
+	.search__filters{
+		display: flex;
+		justify-content: center;
+		.select2-container{
+			margin-right: 7px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+		@media( max-width: 768px) {
+			justify-content: left;
+		}
+	}
+	.search__scroll{
+		@media( max-width: 450px) {
+			overflow: scroll;
+			position: relative;
+			.search__filters{
+				width: 460px;
+			}
+		}
+	}
+	.search__data{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.select2-container{
+			margin: 0;
+			&.select2{
+				text-align: right;
+				.selection{
+					 .select2-selection--single{
+					 	border: none;
+					 	background-color: inherit;
+					 	 .select2-selection__rendered{
+					 	 	padding: 0;
+					 	 	padding-right: 34px;
+					 	 	line-height: 18px;
+					 	 }
+					 }
+				}
+			}
+		}
+	}
+	.search__box{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		.search__card{
+			flex: 0 0 auto;
+			width: 32%;
+			margin-bottom: 15px;
+			margin-right: 2%;
+			@media(min-width: 993px) {
+				&:nth-child(3n){
+					margin-right: 0;
+				}
+			}
+			@media(max-width: 992px) {
+				width: 49%;
+				margin-right: 1%;
+			}
+			@media(max-width: 768px) {
+				width: 100%;
+				margin-right: 0;
+			}
+		}
+	}
+	.search__card{
+		border: 1px solid #212226;
+		border-radius: 13px;
+		padding: 25px 23px 28px;
+		position: relative;
+		.search__card__newtab{
+			display: inline-block;
+			position: absolute;
+			top: 25px;
+			right: 23px;
+			width: 24px;
+			height: 24px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-image: url('../img/icon-launch.svg');
+		}
+		.search__card__tags{
+			padding-right: 28px;
+			ul{
+				padding: 0;
+				margin: 0;
+				font-size: 0;
+				li{
+					display: inline-block;
+					list-style: none;
+					border-radius: 8px;
+					margin-right: 6px;
+					margin-bottom: 8px;
+					border: 1px solid $lightpurple;
+					padding: 6px 8px;
+					&.search__card__tags__type{
+						background-color: $lightpurple;
+						color: $white;
+					}
+				}
+			}
+		}
+		.search__card__who{
+			color: $grey;
+			line-height: 24px;
+			padding-left: 33px;
+			position: relative;
+			.search__card__circle{
+				position: absolute;
+				width: 24px;
+				height: 24px;
+				top: 0;
+				left: 0;
+				border-radius: 50%;
+				background-color: $white;
+				border: 1px solid $lightgrey;
+				img{
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					max-width: 18px;
+				}
+			}
+		}
+		.search__card__body{
+			p{
+				margin-bottom: 8px;
+			}
+		}
+	}
+}

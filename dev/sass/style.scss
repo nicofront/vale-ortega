@@ -1,0 +1,27 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "settings/fonts";
+@import "settings/utility";
+@import "settings/darkmode";
+
+//scripts
+@import "scripts/slick";
+@import "scripts/slick-theme";
+
+//componentes
+@import "components/sidebar";
+@import "components/head";
+@import "components/footer";
+@import "components/formulario";
+@import "components/bgblock";
+@import "components/search";
+
+//objetos
+@import "objects/form";
+@import "objects/button";
+@import "objects/txt";
+@import "objects/accordion";
+@import "objects/paginator";
+@import "objects/slider";
+
+//secciones
+@import "sections/index";

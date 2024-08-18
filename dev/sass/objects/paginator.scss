@@ -1,0 +1,48 @@
+@import "../settings/colors";
+
+.paginator{
+	text-align: center;
+	ul{
+		padding-left: 0;
+		margin-bottom: 0;
+		font-size: 0;
+		li{
+			display: inline-block;
+			margin-right: 2px;
+			&:last-child{
+				margin-right: 0;
+			}
+			a, p{
+				font-size: 14px;
+				line-height: 20px;
+				color: $black;
+				padding: 6px 8px;
+				border-radius: 8px;
+				font-weight: 600;
+				border: 1px solid rgba(0,0,0,0); 
+				margin: 0;
+				&:hover{
+					text-decoration: none;
+				}
+			}
+			.arrow{
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: 6px;
+			}
+			.arrow-prev{
+				background-image: url('../img/icon-prev.svg');
+			}
+			.arrow-next{
+				background-image: url('../img/icon-next.svg');
+			}
+			&.active{
+				a{
+					border-color: $lightpurple;
+					color: $lightpurple;
+					pointer-events: none;
+				}
+			}
+		}
+	}
+}

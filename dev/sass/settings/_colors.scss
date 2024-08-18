@@ -1,0 +1,85 @@
+// Palette
+
+$disabled:				#F2F2F2;
+$white:					#FFFFFF;
+$black: 				#000000;
+$black-base:			#212226;
+$grey:					#38393C;
+$lightgrey:				#B8B8B9;
+$washedgrey:			#606163;
+$red-1:					#E1031A;
+$red-error:				#E1031A;
+$dark:					#282828;
+$purple:				#C876FF;
+$purple-hover:			#AB2B3D;
+$lightpurple:			#7232F2;
+$mainpurple:			#CBB5F5;
+$pink:					#F7F2F9;
+$lightpink:				#C876FF;
+$neutro:				#F9FAFA;
+$mainpink:				#EBCEFB;
+
+$neutro-10:				#F9FAFA;
+$neutro-20:				#F4F5F5;
+$neutro-30:				#ECEDED;
+$neutro-40:				#DEDFDF;
+$neutro-50:				#BBBCBC;
+$neutro-60:				#9C9D9D;
+$neutro-70:				#737474;
+$neutro-80:				#5F6060;
+$neutro-90:				#404141;
+$neutro-100:			#1F2020;
+
+$greyblue-10:			#E4EBF7;
+$greyblue-20:			#C1CFDD;
+$greyblue-30:			#9EAEC0;
+$greyblue-40:			#7B8EA4;
+$greyblue-50:			#627790;
+$greyblue-60:			#48617C;
+$greyblue-70:			#3C546C;
+$greyblue-80:			#2D4257;
+$greyblue-90:			#1F3042;
+$greyblue-100:			#0E1D2B;
+
+$darkblue-00:			#20115B;
+$darkblue-10:			#E2EFF4;
+$darkblue-20:			#B8D6E7;
+$darkblue-30:			#8EBCD7;
+$darkblue-40:			#68A3C6;
+$darkblue-50:			#4E91BC;
+$darkblue-60:			#3780B3;
+$darkblue-70:			#2D74A7;
+$darkblue-80:			#226496;
+$darkblue-90:			#37296A;
+$darkblue-100:			#0C3966;
+
+$lightblue-00:			#7232F2;
+$lightblue-10:			#E3F2FD;
+$lightblue-20:			#BBDEFB;
+$lightblue-30:			#64B5F6;
+$lightblue-40:			#64B5F6;
+$lightblue-50:			#42A5F5;
+$lightblue-60:			#2095F3;
+$lightblue-70:			#1E87E5;
+$lightblue-80:			#1976D2;
+$lightblue-90:			#1564C0;
+$lightblue-100:			#0D46A1;
+
+// Background
+.gradgrey{
+	background: linear-gradient(180deg, #F2F4F5 0%, #FFFFFF 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gradblack{
+	background: linear-gradient(180deg, #2D4257 0%, rgba(249, 250, 250, 0) 100%);
+}
+.bgneutro{
+	background: $neutro;
+}
+.bggrey{
+	background: rgba(158, 174, 192, 0.3);
+}
+.bgblue{
+	background-color: $darkblue-100;
+}

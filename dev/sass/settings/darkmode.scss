@@ -1,0 +1,155 @@
+@import "../settings/colors";
+
+.darkmode{
+	background-color: $grey;
+	.header, .footer{
+		background-color: $grey;
+	}
+	.header{
+		.header__switch{
+			background-image: url('../img/icon-menudark.svg');
+		}
+		.header__contrast{
+			background-image: url('../img/icon-contrastdark.svg');
+		}
+	}
+	.text{
+		color: $white;
+		&.text-darkblue{
+			color: $white;
+			span{
+				color: $lightpink;
+			}
+		}
+		a{
+			color: $lightpink;
+		}
+	}
+	.paginator{
+		ul{
+			li{
+				a, p{
+					color: $white;
+				}
+				.arrow-prev{
+					background-image: url('../img/icon-prevdark.svg');
+				}
+				.arrow-next{
+					background-image: url('../img/icon-nextdark.svg');
+				}
+				&.active{
+					a{
+						border-color: $lightpink;
+						color: $lightpink;
+					}
+				}
+			}
+		}
+	}
+	.sidebar{
+		.sidebar__box{
+			background-color: $lightpink;
+		}
+	}
+	.search{
+		.search__card{
+			border-color: $pink;
+			.search__card__newtab{
+				background-image: url('../img/icon-launchdark.svg');
+			}
+			.search__card__who{
+				color: $white;
+			}
+			.search__card__tags{
+				ul{
+					li{
+						background-color: $pink;
+						color: $black;
+						&.search__card__tags__type{
+							background-color: $lightpink;
+							color: $white;
+						}
+					}
+				}
+			}
+		}
+		.search__data{
+			.select2-container{
+				&.select2{
+					.selection{
+						 .select2-selection--single{
+						 	.select2-selection__rendered{
+						 		color: $white;
+						 	}
+						 }
+					}
+				}
+			}
+		}
+	}
+	.accordion{
+		.accordion__trigger{
+			&:after{
+				border-color: $lightpink transparent transparent transparent;
+			}
+		}
+	}
+	.select2-container--default{
+		.select2-selection--single{
+			background-color: $pink;
+		}
+	}
+	.select2-container{
+		&.select2{
+			.selection{
+				.select2-selection--single{
+					.select2-selection__arrow{
+						b{
+							border-color: $lightpink transparent transparent transparent;
+						}
+					}
+				}
+			}
+		}
+		&.active{
+			&.select2-container--default{
+				.select2-selection--single{
+					background-color: $mainpink;
+				}
+			}
+			&.select2{
+			    .selection{
+			        .select2-selection--single{
+			            .select2-selection__arrow{
+			                b{
+			                    border-color: $grey transparent transparent transparent;
+			                }
+			            }
+			        }
+			    }
+			}
+		}
+	    .select2-dropdown{
+	    	background-color: $washedgrey;
+	        .select2-results__options{
+	            .select2-results__option{
+	                color: $white;
+	                &:hover{
+	                    background-color: $lightpink;
+	                }
+	                &.select2-results__option--selected{
+	                	background-color: $washedgrey;
+	                	color: $white;
+	                }
+	                &.select2-results__option--highlighted{
+	                	background-color: $washedgrey;
+	                	color: $white;
+	                    &:hover{
+	                        background-color: $lightpink;
+	                    }
+	                }
+	            }
+	        }
+	    }
+	}
+}

@@ -1,0 +1,29 @@
+@import "../settings/colors";
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	padding: 18px 0 10px;
+	width: 100%;
+	background-color: $white;
+	// background-color: $lightgrey;
+	.header__switch, .header__contrast{
+		background-repeat: no-repeat;
+		background-position: center;
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+	}
+	.header__switch{
+		background-image: url('../img/icon-menu.svg');
+	}
+	.header__contrast{
+		background-image: url('../img/icon-contrast.svg');
+	}
+	.header__menu{
+		display: flex;
+		justify-content: space-between;
+	}
+}

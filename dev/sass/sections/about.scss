@@ -9,6 +9,9 @@
 	}
 	.about-content{
 		margin-bottom: 50px;
+		@media screen and (max-width: 992px) {
+			margin-bottom: 10px;
+		}
 		h2{
 			font-size: 32px;
 			line-height: 40px;
@@ -34,6 +37,7 @@
 			h4{
 				font-size: 20px;
 				line-height: 25px;
+				margin: 0;
 				span{
 					font-weight: 900;
 				}
@@ -45,6 +49,25 @@
 				width: 120px;
 				max-width: 100%;
 				margin-bottom: 20px;
+			}
+		}
+		@media screen and (max-width: 992px) {
+			display: block;
+			.about-item{
+				width: 49%;
+				padding: 10px 10px;
+				display: inline-block;
+				border-right: none;
+				float: left;
+				min-height: 260px;
+				border-bottom: 1px solid #525656;
+			}
+		}
+		@media screen and (max-width: 767px) {
+			.about-item{
+				width: 100%;
+				float: none;
+				min-height: 0px;
 			}
 		}
 	}	

@@ -1,45 +1,58 @@
 $(document).ready(function() {
 
-    $('select').select2();
-
-    $('.sidebar__trigger, .sidebar__layer').click(function(event){
-        event.preventDefault();
-        $('.sidebar').stop().toggleClass('sidebar--active');
+    $('.testimonies').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                slidesToShow: 1
+              }
+            }
+          ]
     });
 
-    $('.header__contrast').click(function(event){
-        event.preventDefault();
-        $('body').toggleClass('darkmode');
-    });
-
-    $('.accordion__trigger').click(function(event){
-        var self = $(this);
-        event.preventDefault();
-        self.toggleClass('accordion__trigger--active');
-        self.next().stop().slideToggle();
-    });
-
-    $('.search__filters select').change(function(){
-        var self = $(this);
-        var name = self.attr('name');
-        var selected = self.children("option:selected").val();
-        if(selected){
-            $("select[name=" + name + "]").next().addClass('active');
-        }else{
-            $("select[name=" + name + "]").next().removeClass('active');
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+          && 
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
         }
-    });
-
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#scroll').fadeIn(); 
-        } else { 
-            $('#scroll').fadeOut(); 
-        } 
-    }); 
-    $('#scroll').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
+      });
 
 }); //end ready

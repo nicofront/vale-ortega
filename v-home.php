@@ -30,22 +30,22 @@
                         </div>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="#about">
                                     Quienes somos
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#services">
                                     Servicios
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#testimony">
                                     Testimonios
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="#contact">
                                     Contacto
                                 </a>
                             </li>
@@ -61,14 +61,14 @@
                         <p>
                             Únete a la comunidad de quienes eligen vivir de manera saludable y activa. Con entrenamientos personalizados y un enfoque integral en nutrición y bienestar.
                         </p>
-                        <a href="#" class="boton">¡Quiero saber más!</a>
+                        <a href="#contact" class="boton">¡Quiero saber más!</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -126,7 +126,7 @@
         </div>
     </div>
 
-    <div class="services">
+    <div class="services" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -156,7 +156,7 @@
         </div>
     </div>
 
-    <div class="testimony">
+    <div class="testimony" id="testimony">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -165,40 +165,60 @@
                         <span>hablan por nosotros</span>
                     </h2>
                 </div>
-                <div class="col-lg-10 offset-lg-1 d-flex">
-                    <div class="testimony-card">
-                        <img src="dist/img/person.png" alt="Testimonio">
-                        <h3>
-                            Persona 1
-                        </h3>
-                        <p>
-                            Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
-                        </p>
-                    </div>
-                    <div class="testimony-card">
-                        <img src="dist/img/person.png" alt="Testimonio">
-                        <h3>
-                            Persona 1
-                        </h3>
-                        <p>
-                            Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
-                        </p>
-                    </div>
-                    <div class="testimony-card">
-                        <img src="dist/img/person.png" alt="Testimonio">
-                        <h3>
-                            Persona 1
-                        </h3>
-                        <p>
-                            Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
-                        </p>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="testimonies">
+                        <div class="testimony-card">
+                            <img src="dist/img/person.png" alt="Testimonio">
+                            <h3>
+                                Persona 1
+                            </h3>
+                            <p>
+                                Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
+                            </p>
+                        </div>
+                        <div class="testimony-card">
+                            <img src="dist/img/person.png" alt="Testimonio">
+                            <h3>
+                                Persona 2
+                            </h3>
+                            <p>
+                                Me encanto entrenar con la Vale, siempre preocupada de todo. Corrigiéndome los ejercicios, explica todo muy bien. Además siempre tiene tiene tiempo de responder las dudas! Yo no sabía nada de cómo entrenar y ella me enseñó. La recomiendo mucho ❤️🙌!
+                            </p>
+                        </div>
+                        <div class="testimony-card">
+                            <img src="dist/img/person.png" alt="Testimonio">
+                            <h3>
+                                Persona 3
+                            </h3>
+                            <p>
+                                Excelente entrenadora, la recomiendo al 100٪, te anima constantemente en los entrenamientos, se nota su compromiso con los alumnos.
+                            </p>
+                        </div>
+                        <div class="testimony-card">
+                            <img src="dist/img/person.png" alt="Testimonio">
+                            <h3>
+                                Persona 4
+                            </h3>
+                            <p>
+                                Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
+                            </p>
+                        </div>
+                        <div class="testimony-card">
+                            <img src="dist/img/person.png" alt="Testimonio">
+                            <h3>
+                                Persona 5
+                            </h3>
+                            <p>
+                                Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="contact-bg d-md-block d-none">
         </div>
         <div class="container">
@@ -215,7 +235,7 @@
                         <p>
                             Con una certificación profesional en entrenamiento físico, he dedicado más de una década a ayudar a las personas a alcanzar sus metas personales y a mejorar su salud en el proceso con un enfoque holístico que integra ejercicio, nutrición y bienestar mental para asegurar resultados duraderos y un cambio positivo a largo plazo.
                         </p>
-                        <a href="" class="boton">
+                        <a href="https://wa.me/56912345678" target="_blank" class="boton">
                             Cotiza por Whatsapp
                         </a>
                     </div>

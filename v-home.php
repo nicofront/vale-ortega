@@ -52,7 +52,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-5 col-md-8">
                     <div class="stage-content">
                         <h2>
                             Transforma tu vida, 

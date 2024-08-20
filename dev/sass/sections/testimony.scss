@@ -1,5 +1,5 @@
 .testimony{
-	padding: 60px 0 80px;
+	padding: 60px 0 70px;
 	background-color: #f2f2f2;
 	@media screen and (max-width: 767px) {
 	  padding: 40px 0px;
@@ -21,7 +21,7 @@
 		}
 	}
 	.slick-dots{
-		bottom: 0;
+		bottom: -20px;
 	    li{
 	    	width: 9px;
 	    	height: 9px;
@@ -51,6 +51,7 @@
 			display: inline-block;
 			margin: 0 auto;
 			margin-bottom: 20px;
+			border-radius: 50%;
 		}
 		h3{
 			text-transform: uppercase;

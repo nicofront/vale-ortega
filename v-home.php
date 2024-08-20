@@ -155,6 +155,35 @@
             </div>
         </div>
     </div>
+    <div class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="services-content">
+                        <div class="services-item">
+                            <h2>
+                                Un servicio <br>
+                                <span>personalizado</span> <br>
+                                para ti
+                            </h2>
+                        </div>
+                        <div class="services-item">
+                            <h3>
+                                INCLUYE
+                            </h3>
+                            <ul>
+                                <li>Programas personalizados que se adaptan a tus objetivos y necesidades.</li>
+                                <li>Planes alimenticios diseñados para maximizar tus resultados.</li>
+                                <li>Motívate y diviértete entrenando con otros en sesiones grupales.</li>
+                                <li>Clases Online: Entrena desde cualquier lugar con acceso a clases virtuales en demanda.</li>
+                                <li>Seguimiento continuo del progreso, ajustes en tiempo real según el rendimiento.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="testimony" id="testimony">
         <div class="container">
@@ -166,50 +195,23 @@
                     </h2>
                 </div>
                 <div class="col-lg-10 offset-lg-1">
-                    <div class="testimonies">
-                        <div class="testimony-card">
-                            <img src="dist/img/person.png" alt="Testimonio">
+                    <div class="testimonies" id="testimony">
+                        <div class="testimony-card" v-for="item in items">
+                            <img v-bind:src="item.photo" alt="Testimonio">
                             <h3>
-                                Persona 1
+                                {{ item.name }}
                             </h3>
                             <p>
-                                Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
+                                {{ item.message }}
                             </p>
                         </div>
                         <div class="testimony-card">
                             <img src="dist/img/person.png" alt="Testimonio">
                             <h3>
-                                Persona 2
+                                Lorem
                             </h3>
                             <p>
-                                Me encanto entrenar con la Vale, siempre preocupada de todo. Corrigiéndome los ejercicios, explica todo muy bien. Además siempre tiene tiene tiempo de responder las dudas! Yo no sabía nada de cómo entrenar y ella me enseñó. La recomiendo mucho ❤️🙌!
-                            </p>
-                        </div>
-                        <div class="testimony-card">
-                            <img src="dist/img/person.png" alt="Testimonio">
-                            <h3>
-                                Persona 3
-                            </h3>
-                            <p>
-                                Excelente entrenadora, la recomiendo al 100٪, te anima constantemente en los entrenamientos, se nota su compromiso con los alumnos.
-                            </p>
-                        </div>
-                        <div class="testimony-card">
-                            <img src="dist/img/person.png" alt="Testimonio">
-                            <h3>
-                                Persona 4
-                            </h3>
-                            <p>
-                                Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
-                            </p>
-                        </div>
-                        <div class="testimony-card">
-                            <img src="dist/img/person.png" alt="Testimonio">
-                            <h3>
-                                Persona 5
-                            </h3>
-                            <p>
-                                Mi primer programa con ella fue el 2020 y por una fractura tuvimos que detenernos 😢, pero tiempo que estuve participando en los programas logre resultados muy significativos y gratos para el autoestima. 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, libero velit praesentium at id harum illo sequi dolores atque iste voluptates odit excepturi enim alias, ex consectetur vero optio cumque.
                             </p>
                         </div>
                     </div>
@@ -235,7 +237,7 @@
                         <p>
                             Con una certificación profesional en entrenamiento físico, he dedicado más de una década a ayudar a las personas a alcanzar sus metas personales y a mejorar su salud en el proceso con un enfoque holístico que integra ejercicio, nutrición y bienestar mental para asegurar resultados duraderos y un cambio positivo a largo plazo.
                         </p>
-                        <a href="https://wa.me/56912345678" target="_blank" class="boton">
+                        <a href="https://wa.me/56976911605" target="_blank" class="boton">
                             Cotiza por Whatsapp
                         </a>
                     </div>
@@ -255,11 +257,11 @@
                         <div class="footer-item">
                             <ul>
                                 <li>
-                                    <a href="#" target="_blank" class="footer-icon footer-wsp">
+                                    <a href="https://wa.me/56976911605" target="_blank" class="footer-icon footer-wsp">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank" class="footer-icon footer-ig">
+                                    <a href="https://www.instagram.com/valeortegahealthy/" target="_blank" class="footer-icon footer-ig">
                                     </a>
                                 </li>
                                 <li>
@@ -283,6 +285,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="dist/js/all.js?cb=1615307255841"></script>
 </body>
 

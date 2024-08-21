@@ -115,7 +115,7 @@
                             </h4>
                         </div>
                         <div class="about-item">
-                            <img src="dist/img/feat-3.png" alt="Feature">
+                            <img src="dist/img/feat-4.png" alt="Feature">
                             <h4>
                                 PROGRAMAS DE ENTRENAMIENTO <span>EN VIVO</span>
                             </h4>
